@@ -1,0 +1,63 @@
+{
+ "3": {
+  "promotion_tradeoff": [
+   {
+    "lambda": 0.0,
+    "recall@10": 0.17321496437312556,
+    "under_served_slot_share": 0.042399781091804624,
+    "applications_to_under_served": 81,
+    "applications_total": 3271
+   },
+   {
+    "lambda": 0.05,
+    "recall@10": 0.17359392746928662,
+    "under_served_slot_share": 0.07544123683130387,
+    "applications_to_under_served": 139,
+    "applications_total": 3264
+   },
+   {
+    "lambda": 0.1,
+    "recall@10": 0.17115151574379925,
+    "under_served_slot_share": 0.11555616363387604,
+    "applications_to_under_served": 196,
+    "applications_total": 3222
+   },
+   {
+    "lambda": 0.2,
+    "recall@10": 0.16048609346598125,
+    "under_served_slot_share": 0.20119031331235462,
+    "applications_to_under_served": 272,
+    "applications_total": 3058
+   },
+   {
+    "lambda": 0.3,
+    "recall@10": 0.15074685048005612,
+    "under_served_slot_share": 0.2820768915036257,
+    "applications_to_under_served": 343,
+    "applications_total": 2898
+   },
+   {
+    "lambda": 0.5,
+    "recall@10": 0.131655525803152,
+    "under_served_slot_share": 0.4203584621699275,
+    "applications_to_under_served": 435,
+    "applications_total": 2525
+   }
+  ],
+  "candidate_recall": 0.49794796692901533,
+  "candidates_per_user": 161.09522506498837,
+  "feature_importance": {
+   "s_lgcn": 15065.2,
+   "s_knn": 8018.9,
+   "r_lgcn": 8589.1,
+   "r_knn": 16828.1,
+   "pop": 14413.0,
+   "job_deg": 9713.3,
+   "u_deg": 3835.8,
+   "early_career": 186.5,
+   "exp": 4565.2,
+   "years_since_grad": 5507.8
+  },
+  "cold_users": null
+ }
+}

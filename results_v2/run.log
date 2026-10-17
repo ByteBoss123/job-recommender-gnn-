@@ -1,0 +1,5 @@
+w3 val: users=36641 jobs=41723 edges=152297
+   stage1 trained 320s
+w3 test: users=40429 jobs=44456 eval_users=7309
+   stage1 trained 400s
+w3 done: {'itemknn': {'recall@10': 0.1422, 'recall@50': 0.3103, 'ndcg@10': 0.0958}, 'lightgcn': {'recall@10': 0.1143, 'recall@50': 0.3022, 'ndcg@10': 0.0762}, 'popularity': {'recall@10': 0.0052, 'recall@50': 0.0237, 'ndcg@10': 0.0033}, 'rerank_no_gnn': {'recall@10': 0.1604, 'recall@50': 0.3354, 'ndcg@10': 0.1042}, 'two_stage_rerank': {'recall@10': 0.1732, 'recall@50': 0.3749, 'ndcg@10': 0.1132}} | cold: None

@@ -1,0 +1,92 @@
+{
+ "window": 3,
+ "n_users": 7309,
+ "gnn_ablation_with_minus_without": {
+  "recall@10": [
+   0.0128,
+   0.0074,
+   0.0182
+  ],
+  "recall@50": [
+   0.0395,
+   0.0337,
+   0.0455
+  ],
+  "ndcg@10": [
+   0.009,
+   0.0056,
+   0.0122
+  ]
+ },
+ "promotion_tradeoff": [
+  {
+   "lambda": 0.0,
+   "recall@10": 0.17321496437312556,
+   "under_served_slot_share": 0.042399781091804624,
+   "applications_to_under_served": 81,
+   "applications_total": 3271
+  },
+  {
+   "lambda": 0.05,
+   "recall@10": 0.17359392746928662,
+   "under_served_slot_share": 0.07544123683130387,
+   "applications_to_under_served": 139,
+   "applications_total": 3264
+  },
+  {
+   "lambda": 0.1,
+   "recall@10": 0.17115151574379925,
+   "under_served_slot_share": 0.11555616363387604,
+   "applications_to_under_served": 196,
+   "applications_total": 3222
+  },
+  {
+   "lambda": 0.2,
+   "recall@10": 0.16048609346598125,
+   "under_served_slot_share": 0.20119031331235462,
+   "applications_to_under_served": 272,
+   "applications_total": 3058
+  },
+  {
+   "lambda": 0.3,
+   "recall@10": 0.15074685048005612,
+   "under_served_slot_share": 0.2820768915036257,
+   "applications_to_under_served": 343,
+   "applications_total": 2898
+  },
+  {
+   "lambda": 0.5,
+   "recall@10": 0.131655525803152,
+   "under_served_slot_share": 0.4203584621699275,
+   "applications_to_under_served": 435,
+   "applications_total": 2525
+  }
+ ],
+ "summary": {
+  "itemknn": {
+   "recall@10": 0.1422,
+   "recall@50": 0.3103,
+   "ndcg@10": 0.0958
+  },
+  "lightgcn": {
+   "recall@10": 0.1143,
+   "recall@50": 0.3022,
+   "ndcg@10": 0.0762
+  },
+  "popularity": {
+   "recall@10": 0.0052,
+   "recall@50": 0.0237,
+   "ndcg@10": 0.0033
+  },
+  "rerank_no_gnn": {
+   "recall@10": 0.1604,
+   "recall@50": 0.3354,
+   "ndcg@10": 0.1042
+  },
+  "two_stage_rerank": {
+   "recall@10": 0.1732,
+   "recall@50": 0.3749,
+   "ndcg@10": 0.1132
+  }
+ }
+}

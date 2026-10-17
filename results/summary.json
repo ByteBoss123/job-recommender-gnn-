@@ -1,0 +1,234 @@
+{
+ "n_eval_users": 23151,
+ "n_early_career_users": 4697,
+ "summary": {
+  "itemknn": {
+   "recall@10": 0.1395,
+   "recall@50": 0.3102,
+   "hit@10": 0.2552,
+   "ndcg@10": 0.0948
+  },
+  "lightgcn": {
+   "recall@10": 0.1124,
+   "recall@50": 0.2865,
+   "hit@10": 0.2135,
+   "ndcg@10": 0.0746
+  },
+  "popularity": {
+   "recall@10": 0.0056,
+   "recall@50": 0.0224,
+   "hit@10": 0.0144,
+   "ndcg@10": 0.0038
+  },
+  "two_stage_rerank": {
+   "recall@10": 0.1673,
+   "recall@50": 0.3704,
+   "hit@10": 0.299,
+   "ndcg@10": 0.1103
+  }
+ },
+ "early_career": {
+  "itemknn": {
+   "recall@10": 0.1331,
+   "recall@50": 0.3047,
+   "hit@10": 0.2561,
+   "ndcg@10": 0.0928
+  },
+  "lightgcn": {
+   "recall@10": 0.1171,
+   "recall@50": 0.2889,
+   "hit@10": 0.2287,
+   "ndcg@10": 0.0777
+  },
+  "popularity": {
+   "recall@10": 0.0073,
+   "recall@50": 0.0257,
+   "hit@10": 0.02,
+   "ndcg@10": 0.0052
+  },
+  "two_stage_rerank": {
+   "recall@10": 0.1651,
+   "recall@50": 0.3684,
+   "hit@10": 0.3032,
+   "ndcg@10": 0.1099
+  }
+ },
+ "paired_bootstrap_mean_ci95": {
+  "recall@10: lightgcn - itemknn": [
+   -0.0271,
+   -0.0309,
+   -0.0236
+  ],
+  "recall@10: two_stage_rerank - itemknn": [
+   0.0278,
+   0.0246,
+   0.0309
+  ],
+  "recall@10: two_stage_rerank - lightgcn": [
+   0.0549,
+   0.0513,
+   0.0585
+  ],
+  "ndcg@10: lightgcn - itemknn": [
+   -0.0202,
+   -0.0227,
+   -0.0178
+  ],
+  "ndcg@10: two_stage_rerank - itemknn": [
+   0.0155,
+   0.0136,
+   0.0174
+  ],
+  "ndcg@10: two_stage_rerank - lightgcn": [
+   0.0357,
+   0.0333,
+   0.038
+  ],
+  "recall@50: lightgcn - itemknn": [
+   -0.0237,
+   -0.0283,
+   -0.0192
+  ],
+  "recall@50: two_stage_rerank - itemknn": [
+   0.0602,
+   0.0568,
+   0.0637
+  ],
+  "recall@50: two_stage_rerank - lightgcn": [
+   0.0839,
+   0.0798,
+   0.0878
+  ]
+ },
+ "candidate_recall": {
+  "3": 0.4896,
+  "4": 0.4892,
+  "5": 0.4996
+ },
+ "candidates_per_user": {
+  "3": 161.2,
+  "4": 161.2,
+  "5": 159.6
+ },
+ "reranker_gain_importance": {
+  "3": {
+   "s_lgcn": 14276.3,
+   "s_knn": 8413.0,
+   "r_lgcn": 9299.6,
+   "r_knn": 16877.6,
+   "pop": 14768.8,
+   "job_deg": 10379.3,
+   "u_deg": 3620.6,
+   "early_career": 165.4,
+   "exp": 4654.3,
+   "years_since_grad": 5514.5
+  },
+  "4": {
+   "s_lgcn": 13109.6,
+   "s_knn": 7214.3,
+   "r_lgcn": 9876.2,
+   "r_knn": 15707.4,
+   "pop": 14461.1,
+   "job_deg": 10069.4,
+   "u_deg": 3905.2,
+   "early_career": 179.9,
+   "exp": 4609.2,
+   "years_since_grad": 5561.6
+  },
+  "5": {
+   "s_lgcn": 11225.0,
+   "s_knn": 7462.1,
+   "r_lgcn": 9421.4,
+   "r_knn": 23387.7,
+   "pop": 12911.3,
+   "job_deg": 9528.4,
+   "u_deg": 4018.1,
+   "early_career": 178.0,
+   "exp": 4329.6,
+   "years_since_grad": 4449.2
+  }
+ },
+ "notification_policy": [
+  {
+   "withhold_bottom": 0.0,
+   "share_users_notified": 1.0,
+   "precision_per_send": 0.0702,
+   "hits": 1625
+  },
+  {
+   "withhold_bottom": 0.25,
+   "share_users_notified": 0.75,
+   "precision_per_send": 0.0806,
+   "hits": 1400
+  },
+  {
+   "withhold_bottom": 0.5,
+   "share_users_notified": 0.5,
+   "precision_per_send": 0.089,
+   "hits": 1030
+  },
+  {
+   "withhold_bottom": 0.75,
+   "share_users_notified": 0.25,
+   "precision_per_send": 0.1014,
+   "hits": 587
+  },
+  {
+   "withhold_bottom": 0.9,
+   "share_users_notified": 0.1,
+   "precision_per_send": 0.1118,
+   "hits": 259
+  }
+ ],
+ "cold_users": {
+  "3": {
+   "n_users": 4018,
+   "two_tower_profile": {
+    "recall@10": 0.0447,
+    "recall@50": 0.1427,
+    "hit@10": 0.0978,
+    "ndcg@10": 0.0294
+   },
+   "popularity": {
+    "recall@10": 0.0046,
+    "recall@50": 0.0203,
+    "hit@10": 0.0129,
+    "ndcg@10": 0.0027
+   }
+  },
+  "4": {
+   "n_users": 4150,
+   "two_tower_profile": {
+    "recall@10": 0.0425,
+    "recall@50": 0.1435,
+    "hit@10": 0.1039,
+    "ndcg@10": 0.0262
+   },
+   "popularity": {
+    "recall@10": 0.0052,
+    "recall@50": 0.0183,
+    "hit@10": 0.0133,
+    "ndcg@10": 0.0038
+   }
+  },
+  "5": {
+   "n_users": 3927,
+   "two_tower_profile": {
+    "recall@10": 0.0398,
+    "recall@50": 0.1376,
+    "hit@10": 0.0929,
+    "ndcg@10": 0.0254
+   },
+   "popularity": {
+    "recall@10": 0.0052,
+    "recall@50": 0.0208,
+    "hit@10": 0.014,
+    "ndcg@10": 0.0041
+   }
+  }
+ },
+ "cold_users_weighted_recall@50": {
+  "two_tower_profile": 0.1413,
+  "popularity": 0.0198
+ }
+}

@@ -1,0 +1,15 @@
+w3 val: users=36641 jobs=41723 edges=152297
+   stage1 trained 178s
+w3 test: users=40429 jobs=44456 eval_users=7309
+   stage1 trained 215s
+w3 done: {'itemknn': {'recall@10': 0.1422, 'recall@50': 0.3103, 'ndcg@10': 0.0958}, 'lightgcn': {'recall@10': 0.1092, 'recall@50': 0.2891, 'ndcg@10': 0.0724}, 'popularity': {'recall@10': 0.0052, 'recall@50': 0.0237, 'ndcg@10': 0.0033}, 'two_stage_rerank': {'recall@10': 0.1761, 'recall@50': 0.3722, 'ndcg@10': 0.1144}} | cold: {'n_users': 4018, 'two_tower_profile': {'recall@10': 0.0447, 'recall@50': 0.1427, 'hit@10': 0.0978, 'ndcg@10': 0.0294}, 'popularity': {'recall@10': 0.0046, 'recall@50': 0.0203, 'hit@10': 0.0129, 'ndcg@10': 0.0027}}
+w4 val: users=36249 jobs=44400 edges=163725
+   stage1 trained 187s
+w4 test: users=40034 jobs=47223 eval_users=7767
+   stage1 trained 252s
+w4 done: {'itemknn': {'recall@10': 0.1368, 'recall@50': 0.2974, 'ndcg@10': 0.0933}, 'lightgcn': {'recall@10': 0.1153, 'recall@50': 0.2846, 'ndcg@10': 0.0771}, 'popularity': {'recall@10': 0.0049, 'recall@50': 0.0199, 'ndcg@10': 0.0035}, 'two_stage_rerank': {'recall@10': 0.1628, 'recall@50': 0.3671, 'ndcg@10': 0.1083}} | cold: {'n_users': 4150, 'two_tower_profile': {'recall@10': 0.0425, 'recall@50': 0.1435, 'hit@10': 0.1039, 'ndcg@10': 0.0262}, 'popularity': {'recall@10': 0.0052, 'recall@50': 0.0183, 'hit@10': 0.0133, 'ndcg@10': 0.0038}}
+w5 val: users=35629 jobs=43514 edges=162703
+   stage1 trained 176s
+w5 test: users=39426 jobs=46046 eval_users=8075
+   stage1 trained 238s
+w5 done: {'itemknn': {'recall@10': 0.1397, 'recall@50': 0.3224, 'ndcg@10': 0.0953}, 'lightgcn': {'recall@10': 0.1125, 'recall@50': 0.2859, 'ndcg@10': 0.0741}, 'popularity': {'recall@10': 0.0066, 'recall@50': 0.0236, 'ndcg@10': 0.0046}, 'two_stage_rerank': {'recall@10': 0.1637, 'recall@50': 0.3719, 'ndcg@10': 0.1085}} | cold: {'n_users': 3927, 'two_tower_profile': {'recall@10': 0.0398, 'recall@50': 0.1376, 'hit@10': 0.0929, 'ndcg@10': 0.0254}, 'popularity': {'recall@10': 0.0052, 'recall@50': 0.0208, 'hit@10': 0.014, 'ndcg@10': 0.0041}}

@@ -1,0 +1,95 @@
+{
+ "3": {
+  "candidate_recall": 0.489626959355781,
+  "candidates_per_user": 161.16951703379397,
+  "feature_importance": {
+   "s_lgcn": 14276.3,
+   "s_knn": 8413.0,
+   "r_lgcn": 9299.6,
+   "r_knn": 16877.6,
+   "pop": 14768.8,
+   "job_deg": 10379.3,
+   "u_deg": 3620.6,
+   "early_career": 165.4,
+   "exp": 4654.3,
+   "years_since_grad": 5514.5
+  },
+  "cold_users": {
+   "n_users": 4018,
+   "two_tower_profile": {
+    "recall@10": 0.0447,
+    "recall@50": 0.1427,
+    "hit@10": 0.0978,
+    "ndcg@10": 0.0294
+   },
+   "popularity": {
+    "recall@10": 0.0046,
+    "recall@50": 0.0203,
+    "hit@10": 0.0129,
+    "ndcg@10": 0.0027
+   }
+  }
+ },
+ "4": {
+  "candidate_recall": 0.48924760299060255,
+  "candidates_per_user": 161.1918372602034,
+  "feature_importance": {
+   "s_lgcn": 13109.6,
+   "s_knn": 7214.3,
+   "r_lgcn": 9876.2,
+   "r_knn": 15707.4,
+   "pop": 14461.1,
+   "job_deg": 10069.4,
+   "u_deg": 3905.2,
+   "early_career": 179.9,
+   "exp": 4609.2,
+   "years_since_grad": 5561.6
+  },
+  "cold_users": {
+   "n_users": 4150,
+   "two_tower_profile": {
+    "recall@10": 0.0425,
+    "recall@50": 0.1435,
+    "hit@10": 0.1039,
+    "ndcg@10": 0.0262
+   },
+   "popularity": {
+    "recall@10": 0.0052,
+    "recall@50": 0.0183,
+    "hit@10": 0.0133,
+    "ndcg@10": 0.0038
+   }
+  }
+ },
+ "5": {
+  "candidate_recall": 0.4995626099588894,
+  "candidates_per_user": 159.63232198142416,
+  "feature_importance": {
+   "s_lgcn": 11225.0,
+   "s_knn": 7462.1,
+   "r_lgcn": 9421.4,
+   "r_knn": 23387.7,
+   "pop": 12911.3,
+   "job_deg": 9528.4,
+   "u_deg": 4018.1,
+   "early_career": 178.0,
+   "exp": 4329.6,
+   "years_since_grad": 4449.2
+  },
+  "cold_users": {
+   "n_users": 3927,
+   "two_tower_profile": {
+    "recall@10": 0.0398,
+    "recall@50": 0.1376,
+    "hit@10": 0.0929,
+    "ndcg@10": 0.0254
+   },
+   "popularity": {
+    "recall@10": 0.0052,
+    "recall@50": 0.0208,
+    "hit@10": 0.014,
+    "ndcg@10": 0.0041
+   }
+  }
+ }
+}
